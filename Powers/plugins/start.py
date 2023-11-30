@@ -32,8 +32,7 @@ Your donation might also me get me a new feature or two, which I wasn't able to 
 
 All the fund would be put into my services such as database, storage and hosting!
 
-You can donate by contacting my owner: [⎯꯭‌🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭‌🌸](http://t.me/II_BAD_MUNDA_II)
-"""
+You can donate by contacting my owner: [⎯꯭‌🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭‌🌸](http://t.me/II_BAD_MUNDA_II)"""
 
     LOGGER.info(f"{m.from_user.id} fetched donation text in {m.chat.id}")
     await m.reply_photo(photo=str(choice(StartPic)), caption=cpt)
@@ -114,8 +113,7 @@ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 ➖➖➖➖➖➖➖➖➖➖➖
    *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
    *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
-➖➖➖➖➖➖➖➖➖➖➖
-     """
+➖➖➖➖➖➖➖➖➖➖➖"""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
