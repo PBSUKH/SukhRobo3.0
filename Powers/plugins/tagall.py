@@ -1,11 +1,25 @@
-import asyncio
+from random import choice
+from traceback import format_exc
 
-from telethon import events
-from telethon.errors import UserNotParticipantError
-from telethon.tl.functions.channels import GetParticipantRequest
-from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
+from pyrogram import enums
+from pyrogram.errors import (ChatAdminRequired, PeerIdInvalid, RightForbidden,
+                             RPCError, UserAdminInvalid)
+from pyrogram.filters import regex
+from pyrogram.types import (CallbackQuery, ChatPrivileges,
+                            InlineKeyboardButton, InlineKeyboardMarkup,
+                            Message)
 
-from Powers import telethn as client
+from Powers import LOGGER, MESSAGE_DUMP, OWNER_ID
+from Powers.bot_class import Gojo
+from Powers.supports import get_support_staff
+from Powers.utils.caching import ADMIN_CACHE, admin_cache_reload
+from Powers.utils.custom_filters import command, restrict_filter
+from Powers.utils.extract_user import extract_user
+from Powers.utils.extras import BAN_GIFS, KICK_GIFS
+from Powers.utils.parser import mention_html
+from Powers.utils.string import extract_time
+from Powers.vars import Config
+
 
 spam_chats = []
 
