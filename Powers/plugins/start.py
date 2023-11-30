@@ -153,7 +153,8 @@ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 ➖➖➖➖➖➖➖➖➖➖➖
    *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
    *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
-➖➖➖➖➖➖➖➖➖➖➖."""
+➖➖➖➖➖➖➖➖➖➖➖.
+     """
 
         await q.edit_message_caption(
             caption=cpt,
