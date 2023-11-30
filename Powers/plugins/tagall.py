@@ -1,6 +1,5 @@
 from random import choice
 from traceback import format_exc
-
 from pyrogram import enums
 from pyrogram.errors import (ChatAdminRequired, PeerIdInvalid, RightForbidden,
                              RPCError, UserAdminInvalid)
