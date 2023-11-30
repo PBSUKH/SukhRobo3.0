@@ -146,11 +146,10 @@ Join my [News Channel](https://t.me/gojo_bots_network) to get information on all
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-        *🙋𝐇ᴇʏ* {} , 🥀
-*๏ I'M {} SQUARE YOUR GROUP!
-THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
-➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
-  """
+        🙋𝐇ᴇʏ 🥀
+๏ I'M SQUARE YOUR GROUP
+THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE
+➻ ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS."""
 
         await q.edit_message_caption(
             caption=cpt,
