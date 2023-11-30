@@ -45,7 +45,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                 ),
                 (
                     "Support 👥",
-                    f"https://t.me/{SUPPORT_GROUP}",
+                    f"https://t.me/THE_DRAMA_CLUB_01",
                     "url",
                 ),
             ],
@@ -61,7 +61,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "🗃️ Source Code",
-                    "https://t.me/II_BAD_MUNDA_II",
+                    "https://t.me/ll_BAD_MUNDA_01_ll",
                     "url",
                 ),
                 (
@@ -73,7 +73,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "https://t.me/THE_DRAMA_CLUB_01",
                     "url",
                 ),
                 (
