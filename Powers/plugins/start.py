@@ -106,7 +106,11 @@ async def start(c: Gojo, m: Message):
                     return
                 
         try:
-            cpt = f"""🙋𝐇ᴇʏ🥀"""
+            cpt = f"""
+            🙋𝐇ᴇʏ 🥀
+๏ I'M SQUARE YOUR GROUP
+THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE
+➻ ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -145,7 +149,7 @@ async def start_back(_, q: CallbackQuery):
 ๏ I'M SQUARE YOUR GROUP
 THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE
 ➻ ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS."""
-
+      
         await q.edit_message_caption(
             caption=cpt,
             reply_markup=(await gen_start_kb(q.message)),
