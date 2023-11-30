@@ -26,14 +26,15 @@ from Powers.vars import Config
 )
 async def donate(_, m: Message):
     cpt = """
-Hey Thanks for your thought of donating me!
-When you donate, all the fund goes towards my development which makes on fast and responsive.
-Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
-
-All the fund would be put into my services such as database, storage and hosting!
-
-You can donate by contacting my owner: [Captain Ezio](http://t.me/iamgojoof6eyes)
-     """
+    *🙋𝐇ᴇʏ* {} , 🥀
+*๏ I'M {} SQUARE YOUR GROUP!
+THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
+➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
+➖➖➖➖➖➖➖➖➖➖➖
+   *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
+   *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
+➖➖➖➖➖➖➖➖➖➖➖
+"""
 
     LOGGER.info(f"{m.from_user.id} fetched donation text in {m.chat.id}")
     await m.reply_photo(photo=str(choice(StartPic)), caption=cpt)
