@@ -14,7 +14,7 @@ class Config:
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     API_ID = int(config("API_ID", default="123"))
     API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
+    OWNER_ID = int(config("OWNER_ID", default=6898413162))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
     DEV_USERS = [
         int(i)
@@ -45,8 +45,8 @@ class Config:
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="gojo_bots_network")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="gojo_bots_network")
+    SUPPORT_GROUP = config("SUPPORT_GROUP", default="THE_DRAMA_CLUB_01")
+    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="ABT_BAD")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
     BOT_USERNAME = ""
@@ -63,8 +63,8 @@ class Development:
     BOT_TOKEN = "YOUR BOT_TOKEN"
     API_ID = 12345  # Your APP_ID from Telegram
     API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id defult to mine
-    MESSAGE_DUMP = -100845454887  # Your Private Group ID for logs
+    OWNER_ID = 6898413162  # Your telegram user id defult to mine
+    MESSAGE_DUMP = -1002056907061  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
