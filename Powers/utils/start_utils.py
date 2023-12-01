@@ -38,49 +38,41 @@ async def gen_start_kb(q: Message or CallbackQuery):
     return ikb(
                 [
             [
-                (
-                    "🙈𝐀∂∂ 𝐌є🙈",
+                ( "🙈𝐀∂∂ 𝐌є🙈",
                     f"https://t.me/{BOT_USERNAME}?startgroup=true"",
                     "url",
                 ),
-                (
-                    "🎵 𝐌υѕι¢ 𝐁σт 🎵",
+                ("🎵 𝐌υѕι¢ 𝐁σт 🎵",
                     f"https://t.me/BAD_BBY_01_BOT",
                     "url",
                 ),
             ],
             [
-                (
-                    "👻 𝐌αиαgємєит 𝐁σт 👻",
+                ("👻 𝐌αиαgємєит 𝐁σт 👻",
                     f"https://t.me/BAD_BBY_02_BOT",
                     "url",  
                 ),
-                (
-                    "😈 𝐒тяιиg 𝐁σт 😈",
+                ("😈 𝐒тяιиg 𝐁σт 😈",
                     f"https://t.me/BAD_STRING_SESSION_BOT",
                     "url",
                 )
             ],
             [
-                (
-                    "☠ 𝐒тяιиg 𝐇α¢к 𝐁σт ☠",
+                ("☠ 𝐒тяιиg 𝐇α¢к 𝐁σт ☠",
                     f"https://t.me/BAD_STRING_SESSION_HACK_BOT", 
                     "url",
                 ),
-                (
-                    "🌲 𝐆яσυρ 🌲",
+                ("🌲 𝐆яσυρ 🌲",
                     f"https://t.me/THE_DRAMA_CLUB_01", 
                     "url",
                 ),
             ],
             [
-                (
-                    "🦋 𝐂нαииєℓ 🦋",
+                ("🦋 𝐂нαииєℓ 🦋",
                     f"https://t.me/ABT_BAD", 
                     "url",  
                 ),
-                (
-                    "😎 𝐔ѕтα∂  𝐉ι 😎",
+                ("😎 𝐔ѕтα∂  𝐉ι 😎",
                     f"https://t.me/II_BAD_MUNDA_II",
                     "url",
                 ),
