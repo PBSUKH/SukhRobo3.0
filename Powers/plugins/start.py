@@ -110,7 +110,7 @@ async def start(c: Gojo, m: Message):
 𝐂ʜᴀᴛʙꪮᴛ 𝐎ʀ 𝐌ᴏʀᴇ 𝐀ᴡᴇsꪮᴍᴇ 𝐅ᴇᴀᴛᴜʀᴇ 🥀
 𝐀ɴʏ 𝐇ᴇʟᴘ  🌸 𝐎𝐔𝐑 𝐓𝐄𝐀𝐌 ➪ [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/THE_DRAMA_CLUB_01)𝐕ɪsɪᴛ 𝐓ʜᴀɴᴋs 𝐅ꪮʀ 𝐔sɪɴɢ ❤️
 
-🦅𝐌𝐚𝐝𝐞 𝐁𝐲 ➪ **[⎯꯭‌🇨🇦꯭꯭ ⃪Вα꯭∂ ꯭мυη∂α_꯭آآ꯭꯭꯭꯭⎯꯭ ꯭‌🌸](https://t.me/II_BAD_MUNDA_II)** 💞""""
+🦅𝐌𝐚𝐝𝐞 𝐁𝐲 ➪ **[⎯꯭‌🇨🇦꯭꯭ ⃪Вα꯭∂ ꯭мυη∂α_꯭آآ꯭꯭꯭꯭⎯꯭ ꯭‌🌸](https://t.me/II_BAD_MUNDA_II)**💞""""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
