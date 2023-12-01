@@ -106,7 +106,8 @@ async def start(c: Gojo, m: Message):
                     return
                 
         try:
-            cpt = f"""*🙋𝐇ᴇʏ* {} , 🥀
+            cpt = f
+            """*🙋𝐇ᴇʏ* {} , 🥀
 *๏ I'M {} SQUARE YOUR GROUP!
 THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 ➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
