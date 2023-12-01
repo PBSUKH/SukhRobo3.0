@@ -107,9 +107,8 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-            👻𝐇ᴇʏ ๏ 𝐈 𝐒ǫᴜᴀʀᴇ 𝐘ꪮᴜʀ 𝐆ʀꪮᴜᴘ 𝐓ʜᴇ 𝐌ꪮsᴛ 𝐏ꪮᴡᴇʀғᴜʟ 𝐌ᴀɴɢɴᴇɴᴛ 🦋
-𝐂ʜᴀᴛʙꪮᴛ 𝐎ʀ 𝐌ᴏʀᴇ 𝐀ᴡᴇsꪮᴍᴇ 𝐅ᴇᴀᴛᴜʀᴇ 🥀𝐀ɴʏ 𝐇ᴇʟᴘ🌸 👉🏻𝐓ʜᴇ 𝐂ʟɪᴄᴋ 𝐔sᴛᴀᴅ 𝐉ɪ 𝐁ᴜᴛᴛꪮɴ👈🏻 🌺𝐕ɪsɪᴛ 𝐓ʜᴀɴᴋs 𝐅ꪮʀ 𝐔sɪɴɢ ❤️
-""""
+👻𝐇ᴇʏ ๏ 𝐈 𝐒ǫᴜᴀʀᴇ 𝐘ꪮᴜʀ 𝐆ʀꪮᴜᴘ 𝐓ʜᴇ 𝐌ꪮsᴛ 𝐏ꪮᴡᴇʀғᴜʟ 𝐌ᴀɴɢɴᴇɴᴛ 🦋
+𝐂ʜᴀᴛʙꪮᴛ 𝐎ʀ 𝐌ᴏʀᴇ 𝐀ᴡᴇsꪮᴍᴇ 𝐅ᴇᴀᴛᴜʀᴇ 🥀𝐀ɴʏ 𝐇ᴇʟᴘ🌸 👉🏻𝐓ʜᴇ 𝐂ʟɪᴄᴋ 𝐔sᴛᴀᴅ 𝐉ɪ 𝐁ᴜᴛᴛꪮɴ👈🏻 🌺𝐕ɪsɪᴛ 𝐓ʜᴀɴᴋs 𝐅ꪮʀ 𝐔sɪɴɢ ❤️."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -299,4 +298,4 @@ async def get_module_info(c: Gojo, q: CallbackQuery):
       await c.send_message(chat_id=q.message.chat.id,text=help_msg,)
     await q.answer()
     return
-  
+      
