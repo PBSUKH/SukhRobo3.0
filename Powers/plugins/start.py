@@ -106,10 +106,14 @@ async def start(c: Gojo, m: Message):
                     return
                 
         try:
-            cpt = f"""🙋𝐇ᴇʏ 🥀
-๏ I'M SQUARE YOUR GROUP
-THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE
-➻ ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS."""
+            cpt = f"""
+             *๏ I'M {} SQUARE YOUR GROUP!
+THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
+➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
+➖➖➖➖➖➖➖➖➖➖➖
+   *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
+   *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
+➖➖➖➖➖➖➖➖➖➖➖."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -144,13 +148,12 @@ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-        *๏ I'M {} SQUARE YOUR GROUP!
-THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
-➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
-➖➖➖➖➖➖➖➖➖➖➖
-   *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
-   *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
-➖➖➖➖➖➖➖➖➖➖➖."""
+        Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am Gojo ✨.
+I'm here to help you manage your group(s)!
+Hit /help to find out more about how to use me in my full potential!
+
+Join my [News Channel](http://t.me/gojo_bots_network) to get information on all the latest updates."""
+       
       
         await q.edit_message_caption(
             caption=cpt,
