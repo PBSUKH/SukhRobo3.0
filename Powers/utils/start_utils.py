@@ -38,8 +38,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
     return ikb(
       [
             [
-                ( "🙈𝐀∂∂ 𝐌є🙈",
-                    f"https://t.me/{BOT_USERNAME}?startgroup=true"",
+                ("🙈𝐀∂∂ 𝐌є🙈",
+                    f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
                 ("🎵 𝐌υѕι¢ 𝐁σт 🎵",
