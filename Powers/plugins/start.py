@@ -106,16 +106,14 @@ async def start(c: Gojo, m: Message):
                     return
                 
         try:
-            cpt = f"""
-            *🙋𝐇ᴇʏ* {} , 🥀
+            cpt = """*🙋𝐇ᴇʏ* {} , 🥀
 *๏ I'M {} SQUARE YOUR GROUP!
 THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 ➻ *ANY HELP VISIT @THE_DRAMA_CLUB_01 THANKS FOR USING 🥀➣Bᴀᴅ❤︎ ᴍᴜɴᴅᴀ ➻ >•😈 BOTS.*
 ➖➖➖➖➖➖➖➖➖➖➖
    *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
    *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
-➖➖➖➖➖➖➖➖➖➖➖
-     """
+➖➖➖➖➖➖➖➖➖➖➖"""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
