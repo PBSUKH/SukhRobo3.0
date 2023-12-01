@@ -36,7 +36,7 @@ async def gen_cmds_kb(m: Message or CallbackQuery):
 async def gen_start_kb(q: Message or CallbackQuery):
     """Generate keyboard with start menu options."""
     return ikb(
-                [
+      [
             [
                 ( "🙈𝐀∂∂ 𝐌є🙈",
                     f"https://t.me/{BOT_USERNAME}?startgroup=true"",
