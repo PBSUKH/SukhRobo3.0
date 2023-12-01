@@ -35,55 +35,32 @@ async def gen_cmds_kb(m: Message or CallbackQuery):
 
 async def gen_start_kb(q: Message or CallbackQuery):
     """Generate keyboard with start menu options."""
-    return ikb(
-        [
-            [
-                (
-                    "➕ Add me to a chat!",
-                    f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
-                    "url",
-                ),
-                (
-                    "Support 👥",
-                    f"https://t.me/THE_DRAMA_CLUB_01",
-                    "url",
-                ),
-            ],
-            [
-                (
-                    "📚 Commands & Help", "commands"
-                ),
-                (
-                    "👾 Bot info",
-                    "bot_curr_info"
-                )
-            ],
-            [
-                (
-                    "🗃️ Source Code",
-                    "https://t.me/ll_BAD_MUNDA_01_ll",
-                    "url",
-                ),
-                (
-                    "Owner ⭐",
-                    Config.OWNER_ID,
-                    "user_id",
-                ),
-            ],
-            [
-                (
-                    "Essential",
-                    "https://t.me/THE_DRAMA_CLUB_01",
-                    "url",
-                ),
-                (
-                    "Powered by",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
-                    "url",
-                ),
-            ],
+    return ikb[
+          [ 
+          InlineKeyboardButton("🙈𝐀∂∂ 𝐌є🙈", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
-    )
+
+        [
+           InlineKeyboardButton("🎵 𝐌υѕι¢ 𝐁σт 🎵", url=f"https://t.me/BAD_BBY_01_BOT")
+        ],
+        [ 
+          InlineKeyboardButton("👻 𝐌αиαgємєит 𝐁σт 👻", url=f"https://t.me/BAD_BBY_02_BOT")
+        ],
+        [
+            InlineKeyboardButton("😈 𝐒тяιиg 𝐁σт 😈", url=f"https://t.me/BAD_STRING_SESSION_BOT")
+        ],
+        [
+            InlineKeyboardButton("☠ 𝐒тяιиg 𝐇α¢к 𝐁σт ☠", url=f"https://t.me/BAD_STRING_SESSION_HACK_BOT")
+        ],
+        [
+            InlineKeyboardButton("🌲 𝐆яσυρ 🌲", url=f"https://t.me/THE_DRAMA_CLUB_01")
+        ],
+        [
+            InlineKeyboardButton("🦋 𝐂нαииєℓ 🦋", url=f"https://t.me/ABT_BAD")
+        ],
+        [
+            InlineKeyboardButton("😎 𝐔ѕтα∂  𝐉ι 😎", url=f"https://t.me/II_BAD_MUNDA_II")
+        ]]
 
 
 async def get_private_note(c: Gojo, m: Message, help_option: str):
