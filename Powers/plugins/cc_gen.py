@@ -1,10 +1,8 @@
 from ... import *
 from pyrogram import *
 from Powers.bot_class import Gojo
-from pyrogram.types import 
-
 from pyrogram import Client, filters
-from Power import app
+from Powers import app
 
 
 @app.on_message(filters.command(["gen", "ccgen"], [".", "!", "/"]))
