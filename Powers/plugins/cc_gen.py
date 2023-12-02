@@ -1,6 +1,7 @@
 from ... import *
 from pyrogram import *
-from pyrogram.types import *
+from Powers.bot_class import Gojo
+from pyrogram.types import 
 
 from pyrogram import Client, filters
 from Power import app
