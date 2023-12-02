@@ -1,7 +1,9 @@
-import asyncio
-from Powers.bot_class import Gojo
-from pyrogram import filters
-from Powers.utils.custom_filters import admin_filter
+from ... import *
+from pyrogram import *
+from pyrogram.types import *
+
+from pyrogram import Client, filters
+from Power import app
 
 
 @app.on_message(filters.command(["gen", "ccgen"], [".", "!", "/"]))
