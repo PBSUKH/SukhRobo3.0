@@ -1,6 +1,6 @@
 import requests
 import random
-from Powers.bot_class import Gojo as app
+from Powers.bot_class import Gojo
 from Powers.supports import get_support_staff
 from pyrogram import * 
 from pyrogram.types import *
@@ -52,8 +52,8 @@ channel = ["channel"]
 # ========================================= #
 
 
-@app.on_message(filters.command(["adbaby"], prefixes=["b","B"]) & restrict_filter)
-async def restriction_app(app :app, message):
+@Gojo.on_message(filters.command(["adbaby"], prefixes=["b","B"]) & restrict_filter)
+async def restriction_app(app :Gojo, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
     if len(message.text) < 2:
@@ -69,13 +69,13 @@ async def restriction_app(app :app, message):
                 if user_id in SUDOERS:
                     await message.reply(random.choice(strict_txt))          
                 else:
-                    await app.ban_chat_member(chat_id, user_id)
+                    await Gojo.ban_chat_member(chat_id, user_id)
                     await message.reply("OK, Ban kar diya madrchod ko sala Chutiya tha !")
                     
         for unbanned in data:
             print(f"present {unbanned}")
             if unbanned in unban:
-                await app.unban_chat_member(chat_id, user_id)
+                await Gojo.unban_chat_member(chat_id, user_id)
                 await message.reply(f"Ok, aap bolte hai to unban kar diya") 
                 
         for kicked in data:
@@ -85,8 +85,8 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))
                 
                 else:
-                    await app.ban_chat_member(chat_id, user_id)
-                    await app.unban_chat_member(chat_id, user_id)
+                    await Gojo.ban_chat_member(chat_id, user_id)
+                    await Gojo.unban_chat_member(chat_id, user_id)
                     await message.reply("get lost! bhga diya bhosdi wale ko") 
                     
         for muted in data:
@@ -111,7 +111,7 @@ async def restriction_app(app :app, message):
         for promoted in data:
             print(f"present {promoted}")            
             if promoted in promote:
-                await app.promote_chat_member(chat_id, user_id, privileges=ChatPrivileges(
+                await Gojo.promote_chat_member(chat_id, user_id, privileges=ChatPrivileges(
                     can_change_info=False,
                     can_invite_users=True,
                     can_delete_messages=True,
@@ -127,7 +127,7 @@ async def restriction_app(app :app, message):
         for demoted in data:
             print(f"present {demoted}")            
             if demoted in demote:
-                await app.promote_chat_member(chat_id, user_id, privileges=ChatPrivileges(
+                await Gojo.promote_chat_member(chat_id, user_id, privileges=ChatPrivileges(
                     can_change_info=False,
                     can_invite_users=False,
                     can_delete_messages=False,
