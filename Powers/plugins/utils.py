@@ -414,7 +414,7 @@ async def reporting_query(c: Gojo, m: Message):
         z = await c.send_message(MESSAGE_DUMP,txt,parse_mode=enums.ParseMode.HTML)
         await z.reply_text(f"#BUG\nReported by: {m.from_user.id} ({m.from_user.mention})")
     await repl.delete()
-    await m.reply_photo(photo="./extras/Fire.jpg",caption="Successfully reported your bug",reply_markup=kb)
+    await m.reply_photo(photo="https://te.legra.ph/file/e25a563619c653328830d.jpg",caption="Successfully reported your bug",reply_markup=kb)
     ppost = z.link
     await c.send_message(OWNER_ID,f"New bug report\n{ppost}",disable_web_page_preview=True)
     return
