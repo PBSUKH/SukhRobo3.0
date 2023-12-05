@@ -1,7 +1,7 @@
 {
     "name": "Gojo_Satoru",
     "description": "Gojo is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
-    "logo" : "https://te.legra.ph/file/633bd27c1607fe98920b6.jpg",
+    "logo" : "https://te.legra.ph/file/e25a563619c653328830d.jpg",
     "keywords": [
       "telegram bot",
       "group bot",
@@ -10,8 +10,8 @@
       "Gojo",
       "Anime"
     ],
-    "repository": "https://github.com/Gojo-Bots/Gojo_Satoru",
-    "success_url": "https://t.me/GojoSuperbot",
+    "repository": "https://github.com/badmunda98/BADMANEGMENT",
+    "success_url": "https://t.me/BAD_BBY_02_BOT",
     "env": {
       "BOT_TOKEN": {
         "description": "Your telegram bot token, get from @Botfather in telegram.",
@@ -41,12 +41,12 @@
       "OWNER_ID": {
         "description": "Your user ID as an integer.",
         "required": false,
-        "value": "1344569458"
+        "value": "6898413162"
       },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
         "required": false,
-        "value": "gojo_bots_network"
+        "value": "THE_DRAMA_CLUB_01"
       },
       "MESSAGE_DUMP": {
         "description": "Event logs channel where bot will send updates.",
@@ -66,7 +66,7 @@
       "SUPPORT_CHANNEL": {
         "description": "Channel where bot updates will be posted!",
         "required": false,
-        "value": "gojo_bots_network"
+        "value": "ll_BAD_MUNDA_01_ll"
       },
       "SUDO_USERS": {
         "description": "A space-separated list of user IDs who you want to assign as sudo users.",
