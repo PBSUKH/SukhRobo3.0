@@ -70,8 +70,7 @@ PYTHON_VERSION = python_version()
 PYROGRAM_VERSION = pyrogram.__version__
 
 LOGGER.info("------------------------")
-LOGGER.info("|      ⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸
-      |")
+LOGGER.info("| ⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸|")
 LOGGER.info("------------------------")
 LOGGER.info(f"Version: {VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
