@@ -406,7 +406,7 @@ async def reporting_query(c: Gojo, m: Message):
     txt = "#BUG\n"
     txt += repl.text.html
     txt += f"\nReported by: {m.from_user.id} ({m.from_user.mention})"
-    kb = InlineKeyboardMarkup([[InlineKeyboardButton("Update channel",url=f"https://t.me/{SUPPORT_GROUP}")],[InlineKeyboardButton("Report on github",url="https://github.com/Gojo-Bots/Gojo_Satoru/issues/new/choose")]])
+    kb = InlineKeyboardMarkup([[InlineKeyboardButton("🥀𝐔𝐩𝐝𝐚𝐭𝐞 𝐆𝐫𝐨𝐮𝐩👻",url=f"https://t.me/{SUPPORT_GROUP}")],[InlineKeyboardButton("👻𝐔𝐬𝐭𝐚𝐝 𝐣𝐢👻",url="https://t.me/II_BAD_MUNDA_II")]])
     try:
         z = await c.send_message(MESSAGE_DUMP,txt,parse_mode=enums.ParseMode.HTML)
     except Exception:
