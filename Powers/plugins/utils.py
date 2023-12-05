@@ -72,7 +72,7 @@ async def gdpr_remove(_, m: Message):
     Users(m.from_user.id).delete_user()
     await m.reply_text(
         "Your personal data has been deleted.\n"
-        "Note that this will not unban you from any chats, as that is telegram data, not Gojo data."
+        "Note that this will not unban you from any chats, as that is telegram data, not BAD data."
         " Flooding, warns, and gbans are also preserved, as of "
         "[this](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/),"
         " which clearly states that the right to erasure does not apply 'for the performance of a task carried out in the public interest', "
@@ -406,7 +406,7 @@ async def reporting_query(c: Gojo, m: Message):
     txt = "#BUG\n"
     txt += repl.text.html
     txt += f"\nReported by: {m.from_user.id} ({m.from_user.mention})"
-    kb = InlineKeyboardMarkup([[InlineKeyboardButton("🥀𝐔𝐩𝐝𝐚𝐭𝐞 𝐆𝐫𝐨𝐮𝐩👻",url=f"https://t.me/{SUPPORT_GROUP}")],[InlineKeyboardButton("👻𝐔𝐬𝐭𝐚𝐝 𝐣𝐢👻",url="https://t.me/II_BAD_MUNDA_II")]])
+    kb = InlineKeyboardMarkup([[InlineKeyboardButton("🥀𝐔𝐩𝐝𝐚𝐭𝐞 𝐆𝐫𝐨𝐮𝐩👻",url=f"https://t.me/THE_DRAMA_CLUB_01")],[InlineKeyboardButton("👻𝐔𝐬𝐭𝐚𝐝 𝐣𝐢👻",url="https://t.me/II_BAD_MUNDA_II")]])
     try:
         z = await c.send_message(MESSAGE_DUMP,txt,parse_mode=enums.ParseMode.HTML)
     except Exception:
